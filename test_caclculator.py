@@ -7,3 +7,6 @@ class TestCalculator:
 
     def test_substraction(self):
         assert 2 == calculator.substract(4, 2)
+
+    def test_multi(self):
+        100 == calculator.multi(10, 10)
